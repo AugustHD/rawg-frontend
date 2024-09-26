@@ -11,6 +11,7 @@ function App() {
         lg: `"nav nav"
              "aside main"`,
       }}
+      padding={4}
     >
       <GridItem pl="2" bg="orange.300" area={"nav"}>
         <NavBar />
