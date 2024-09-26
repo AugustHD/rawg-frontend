@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Grid, GridItem, Show } from "@chakra-ui/react";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       }}
     >
       <GridItem pl="2" bg="orange.300" area={"nav"}>
-        Nav
+        <NavBar />
       </GridItem>
       <Show above="lg">
         {/* If screen is above lg-size, shows aside */}
